@@ -1,7 +1,5 @@
 console.log("Let's get this party started!");
 
-console.log("Let's get this party started!");
-
 const form = document.querySelector('#form')
 
 const input = document.querySelector("input[type='text']")
@@ -29,7 +27,7 @@ removeBtn.addEventListener("click", (e) => {
 
 async function searchGIF(e, q, api_key) {
 
-  const res = await axios.get('http://api.giphy.com/v1/gifs/search',
+  const res = await axios.get('https://api.giphy.com/v1/gifs/search',
   
   {params: 
 
